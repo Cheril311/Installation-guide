@@ -41,14 +41,12 @@ You can also run VS Code from the terminal by typing 'code' after adding it to t
 <h4>Snap</h4>
 Visual Studio Code is officially distributed as a Snap package in the Snap Store<br>
 You can install it by running:<br>
+
+
+
 ```python
 
-  pronouns = "he" | "him" | "Chan" 
-  code = [Javascript, Typescript, HTML, CSS, Python, Octave, MySQL, SQLite, C++]
-  tools = [React, Django, Bash, Bootstap, Linux-Ubuntu]
-  techCommunities = {
-                        Member : "PICT - ACM Chapter",
-                        
-                      }
-
+ sudo snap install --classic code # or code-insiders                       
 ```
+Once installed, the Snap daemon will take care of automatically updating VS Code in the background. You will get an in-product update notification whenever a new update is available.
+
