@@ -28,8 +28,9 @@ Installation
 
 Note: .NET Framework 4.5.2 or higher is required for VS Code. If you are using Windows 7, make sure you have at least .NET Framework 4.5.2 installed. You can check your version of .NET Framework using this command in command prompt:
 
-<em>reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\full" /v version" </em>
-
+```python
+reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\full" /v version" 
+```
 ### Mac OS <a name = "mac"></a>
 Installation
 1)	Download Visual Studio Code for macOS.
